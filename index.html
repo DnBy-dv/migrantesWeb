@@ -6,60 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PastoralMigrante | Inicio</title>
+    <!--ESTILOS PROPIOS-->
     <link href="styles/estilos.css" rel="stylesheet" />
-    <link href="styles/reset.css" rel="stylesheet" />
+    <!--ESTILOS GOOGLE-->
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!--CABECERA-->
-    <header>
-        <h1>Pastoral del Migrante</h1>
+    <header class="header">
+        <img src="sources/images/img_logoPastoral.png" alt="LogoPastoral">
+        <h1>
+            Pastoral del Migrante
+        </h1>
     </header>
 
     <!--MENU-->
-    <nav>
-        <a>Inicio</a>
-        <a>Nosotros</a>
-        <a>Historia</a>
-        <a>Contactenos</a>
+    <nav class="navbar">
+        <a href="">Inicio</a>
+        <a href="">Nosotros</a>
+        <a href="">Historia</a>
+        <a href="">Contactenos</a>
     </nav>
 
-    <!--SECCION INICIO-->
-    <section>
-        <h2>¿Sabias que?</h2>
-        <blockquote>
-            <em>Si el mundo es creac&iacute; de dios es ilegal en esta tierra</em>
+    <!--SECCION PRINCIPAL-->
+    <section class="container sabiasQue">
+        <article class="content">
+            <h2 class="title">¿Sabias que?</h2>
+            <blockquote>
+                <em>Si el mundo es creac&iacute; de dios es ilegal en esta tierra</em>
+            </blockquote>
             <strong>Lema de la pastoral</strong>
-        </blockquote>
+        </article>
     </section>
 
-    <!--SECCION INICIOS-->
-    <section>
-        <h2>Inicios del programa</h2>
+    <!--SECCION SECUNDARIA-->
+    <section class="container programa">
+        <h2 class="title">Inicios del programa</h2>
         <p>
             La Pastoral del Migrante del S&iacute;nodo Luterano Salvadoreño, impulsa talleres en las comunidades, en
             la fotogr&aacute; personas de la Microregi&oacute;n de Occidente Centro se informan y sensibilizan sobre
             los riesgos de migrar de forma irregular y para generar las bases de como recibir a familias y personas
             deportadas.
-        </p>
+        </p><br />
         <p>
             En El Salvador, mas de 300 personas salen del pa&iacute;s de forma irregular en su mayoria hacia los
             Estados Unidos, de esta cantidad, solo un porcentaje minimo logra cruzar las fronteras y llegar a su
             destino. Muchas de ellas regresan con traumas y deudas.
-        </p>
+        </p><br />
         <blockquote>
             <em>Fui migrante,y me recibiste.</em>
         </blockquote>
         <strong>Mateo 25:35</strong>
+        <br>
+        <a class="btn-enlace" href="">Ver mas..</a>
     </section>
     <!--OTRA SECCION/NOTICIAS-->
 
     <!--PIE DE PAGINA-->
-    <footer>
-        <strong>
+    <footer class="container footer">
+        <ul class="list-logos">
+            <li>
+                <figure>
+                    <img src="sources/images/img_logoELCA_1.png" />
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="sources/images/img_logoLuterano.png" />
+                </figure>
+            </li>
+        </ul>
+        <p>
             #Migrarnoeslasoluci&oacute;n<br />
             #campañamigrantes
-        </strong>
+        </p>
+
     </footer>
 </body>
 
