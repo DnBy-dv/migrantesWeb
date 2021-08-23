@@ -1,5 +1,5 @@
 /*----------------------------ARCHIVOS IMPORTADOS(RESET CSS)----------------------------*/
-@import url(/styles/reset.css);
+@import url(reset.css);
 
 /**********************************************************************************/
 /*----------------------------ESTRUCTURA----------------------------*/
@@ -18,18 +18,18 @@ body {font: 100 25px/1.5 'Acme';text-align: center;color: #f1f1e8;}
 /*----------------------------ESTILOS DE LA ESTRUCTURA----------------------------*/
 
 /*----------------------------CABECERA----------------------------*/
-.header {background: url("/sources/fonts/font_index.png") no-repeat center;background-size: cover;height: 350px;}
+.header {background: url(../sources/fonts/img_banner.png) no-repeat center center;background-size: cover;height: 350px;}
 
-.navbar {background-color: #81b214;height: 70px;}
+.navbar {background: linear-gradient(to bottom,#80b214,#42990f) ;height: 70px;}
 
 /*----------------------------CONTENIDO----------------------------*/
 .container {padding: 80px 0;}
 
 .sabiasQue {background-color: #005d16;}
 
-.programa {background: url(/sources/images/img_seccionProgramas.png) no-repeat center center;background-size: cover;}
+.programa {background: url(../sources/fonts/img_programa.png) no-repeat center top;background-size: cover;}
 
-.footer {background-color: #206a5d;padding: 30px 0;}
+.footer {background-color: #206a5d;padding: 5px 0;}
 
 /**********************************************************************************/
 /*----------------------------ELEMENTOS INDIVIDUALES----------------------------*/
@@ -57,5 +57,7 @@ body {font: 100 25px/1.5 'Acme';text-align: center;color: #f1f1e8;}
 
 p {margin-bottom: 40px;}
 
-.btn-enlace{ display: inline-block;padding: 10px 40px;border: 2px solid;background-color: rgba(255, 255, 255, 0.4) ; text-decoration: none;color: #206a5d;}
-    .btn-enlace:hover{background:rgb(0,93, 22,0.5);color: white;}
+.btn-enlace{ display: inline-block;padding: 10px 40px;border: 2px solid;background-color: rgba(255, 255, 255, 0.1) ; text-decoration: none;color: white;}
+    .btn-enlace:hover{background:rgb(0,93, 22,0.5);}
+
+.developer {text-align: left;font-size: 20px; opacity: 0.4;margin-bottom: 0%;padding:0%;}
